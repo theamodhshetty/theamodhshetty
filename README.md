@@ -17,12 +17,6 @@
   <img src="https://img.shields.io/badge/Bugs-Reproduced%20locally%20yes-7c3aed?style=flat-square" alt="Humor badge" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/theamodhshetty?style=flat-square&label=Total%20Stars" alt="Total stars badge" />
-  <img src="https://img.shields.io/github/followers/theamodhshetty?style=flat-square&label=Followers" alt="Followers badge" />
-  <img src="https://img.shields.io/github/last-commit/theamodhshetty/theamodhshetty?style=flat-square&label=README%20Updated" alt="README updated badge" />
-</p>
-
 ## About
 
 - I turn product ideas into reliable interfaces people enjoy using.
