@@ -1,0 +1,76 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nature and code hero scene light</title>
+  <desc id="desc">Day landscape with hills, trees, and a floating code panel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="52%" stop-color="#d9f7e8"/>
+      <stop offset="100%" stop-color="#bbf7d0"/>
+    </linearGradient>
+    <linearGradient id="hillBack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#86efac"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="hillFront" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffffdd"/>
+      <stop offset="100%" stop-color="#e0f2fecc"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="420" fill="url(#bg)"/>
+
+  <g opacity="0.32" stroke="#1e3a8a" stroke-width="1">
+    <path d="M0 335H1600"/>
+    <path d="M0 300H1600"/>
+    <path d="M0 265H1600"/>
+    <path d="M0 230H1600"/>
+    <path d="M200 0V420"/>
+    <path d="M400 0V420"/>
+    <path d="M600 0V420"/>
+    <path d="M800 0V420"/>
+    <path d="M1000 0V420"/>
+    <path d="M1200 0V420"/>
+    <path d="M1400 0V420"/>
+  </g>
+
+  <circle cx="1290" cy="84" r="36" fill="#fde68a"/>
+  <circle cx="1290" cy="84" r="56" fill="#fde68a" opacity="0.35"/>
+
+  <path d="M0 271C178 239 341 293 495 260C650 227 806 186 944 201C1124 221 1315 291 1600 247V420H0V271Z" fill="url(#hillBack)"/>
+  <path d="M0 300C169 267 365 330 560 301C759 273 958 232 1123 248C1326 267 1455 323 1600 312V420H0V300Z" fill="url(#hillFront)"/>
+
+  <g opacity="0.75" fill="#0f5132">
+    <path d="M110 322L131 257L152 322Z"/>
+    <path d="M149 322L169 249L189 322Z"/>
+    <path d="M1488 324L1510 251L1532 324Z"/>
+    <path d="M1450 324L1469 262L1488 324Z"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="620" y="84" rx="16" ry="16" width="742" height="226" fill="url(#glass)" stroke="#93c5fd88"/>
+    <rect x="620" y="84" width="742" height="34" rx="16" ry="16" fill="#e2e8f0cc"/>
+    <circle cx="646" cy="101" r="4.5" fill="#ef4444"/>
+    <circle cx="663" cy="101" r="4.5" fill="#f59e0b"/>
+    <circle cx="680" cy="101" r="4.5" fill="#10b981"/>
+
+    <text x="648" y="150" font-family="Menlo, Monaco, Consolas, monospace" font-size="18" fill="#0f172a">const craft = ["nature", "code", "shipping"];</text>
+    <text x="648" y="180" font-family="Menlo, Monaco, Consolas, monospace" font-size="18" fill="#1d4ed8">if (focus === "product") build("fast", "clean", "mobile");</text>
+    <text x="648" y="210" font-family="Menlo, Monaco, Consolas, monospace" font-size="18" fill="#15803d">while (curious) learn(["SwiftUI", "Kotlin", "Next.js"]);</text>
+    <rect x="648" y="238" width="540" height="3" fill="url(#line)" opacity="0.9"/>
+    <text x="648" y="270" font-family="Menlo, Monaco, Consolas, monospace" font-size="16" fill="#334155">// writing software with calm UX and strong engineering</text>
+  </g>
+
+  <text x="84" y="122" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#0f172a">Amodh Shetty</text>
+  <text x="84" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#1e3a8a">Nature + Code | Web and Mobile Builder</text>
+</svg>

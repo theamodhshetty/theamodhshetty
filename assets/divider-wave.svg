@@ -1,0 +1,10 @@
+<svg width="1200" height="36" viewBox="0 0 1200 36" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="section divider">
+  <defs>
+    <linearGradient id="g" x1="0" y1="18" x2="1200" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#0ea5e9" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 18C85 2 170 2 255 18C340 34 425 34 510 18C595 2 680 2 765 18C850 34 935 34 1020 18C1080 7 1140 7 1200 18" stroke="url(#g)" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
